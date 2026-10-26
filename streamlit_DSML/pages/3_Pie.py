@@ -4,7 +4,7 @@ import plotly.express as px
 from pathlib import Path
 
 # ---------- Change this title to test live updates ----------
-CHART_TITLE = "How I Spend a Typical Day (hours)"
+CHART_TITLE = "My Weekday Breakdown"
 
 st.title("🥧 Interactive Pie Chart")
 st.write("This page reads `data/pie_demo.csv`. Edit the CSV on GitHub and refresh to see the chart update.")
