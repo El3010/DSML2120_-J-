@@ -3,22 +3,22 @@ from pathlib import Path
 
 st.title("👋 My Bio")
 
-# ---------- TODO: Replace with your own info ----------
-NAME = Jose Lopez
-PROGRAM = Computer Science
+# ---------- My info ----------
+NAME = "Jose Lopez"
+PROGRAM = "Computer Science"
 INTRO = (
-    Right now I am studying Computer Science and I'm currently working on a AI stduy buddy extension for my senior experience class. 
-    Something that excited me about data visualization is how we can see our code be able to show visualizations.
-    
+    "Right now I am studying Computer Science and I'm currently working on an AI study buddy "
+    "extension for my senior experience class. "
+    "Something that excites me about data visualization is how we can see our code turn data into visuals."
 )
 FUN_FACTS = [
-    I love sports but more specifically soccer
-    I’m learning how to become better at data visualizations
-    I want to build a program that helps people make better picks when it comes to sports betting.
+    "I love sports, but more specifically soccer.",
+    "I'm learning how to become better at data visualizations.",
+    "I want to build a program that helps people make better picks when it comes to sports betting.",
 ]
 
-
-PHOTO_PATH = "your_photo.jpg"  # Put a file in repo root or set a URL
+# Just the file name; find_photo() already looks inside the assets/ folder.
+PHOTO_PATH = "your_photo.jpg"
 
 
 def find_photo(filename=PHOTO_PATH):
@@ -45,20 +45,20 @@ col1, col2 = st.columns([1, 2], vertical_alignment="center")
 
 with col1:
     if photo_src:
-        st.image(photo_src, caption=NAME, use_container_width=True)
+        st.image(photo_src, caption=NAME, width="stretch")
     else:
         st.info(
-            "📷 Place `Your_Photo.jpg` inside an `assets/` folder at the app root "
-            "or update the path in `find_photo()`."
+            "📷 Place your photo inside the `assets/` folder "
+            "and set PHOTO_PATH to its file name."
         )
-        
+
 with col2:
     st.subheader(NAME)
     st.write(PROGRAM)
     st.write(INTRO)
 
 st.markdown("### Fun facts")
-for i, f in enumerate(FUN_FACTS, start=1):
+for f in FUN_FACTS:
     st.write(f"- {f}")
 
 st.divider()
