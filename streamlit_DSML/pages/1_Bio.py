@@ -8,7 +8,7 @@ NAME = Jose Lopez
 PROGRAM = Computer Science
 INTRO = (
     Right now I am studying Computer Science and I'm currently working on a AI stduy buddy extension for my senior experience class. 
-    Something that excited me about data visualization is how we can see our code be able to show visualizations."
+    Something that excited me about data visualization is how we can see our code be able to show visualizations.
     
 )
 FUN_FACTS = [
