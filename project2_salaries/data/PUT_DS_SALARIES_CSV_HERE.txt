@@ -1,0 +1,2 @@
+Put ds_salaries.csv from Kaggle in this folder:
+https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries
