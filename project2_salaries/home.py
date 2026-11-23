@@ -34,10 +34,10 @@ c4.metric("Company countries", df["company_location"].nunique())
 st.markdown("### Explore the app")
 cols = st.columns(4)
 pages = [
-    ("pages/1_📄_Bio.py", "📄 Bio", "Who I am, my tools, and my visualization philosophy."),
-    ("pages/2_📊_Charts_Gallery.py", "📊 EDA Gallery", "Four chart types, each with a reading guide and observations."),
-    ("pages/3_📈_Dashboard.py", "📈 Dashboard", "Filter the data and watch KPIs and linked charts update."),
-    ("pages/4_🧭_Future_Work.py", "🧭 Future Work", "Next steps and how the design evolved from my paper prototype."),
+    ("pages/1_Bio.py", "📄 Bio", "Who I am, my tools, and my visualization philosophy."),
+    ("pages/2_Charts_Gallery.py", "📊 EDA Gallery", "Four chart types, each with a reading guide and observations."),
+    ("pages/3_Dashboard.py", "📈 Dashboard", "Filter the data and watch KPIs and linked charts update."),
+    ("pages/4_Future_Work.py", "🧭 Future Work", "Next steps and how the design evolved from my paper prototype."),
 ]
 for col, (path, label, desc) in zip(cols, pages):
     with col:
