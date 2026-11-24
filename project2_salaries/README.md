@@ -9,7 +9,7 @@ jobs (experience, company size, location, and remote work) through an EDA galler
 ## Author
 **Jose Lopez** — MSU Denver
 - LinkedIn: https://www.linkedin.com/in/your-profile  <!-- TODO -->
-- Email: your.email@example.com  <!-- TODO -->
+- Email: emiliano3201@gmail.com  <!-- TODO -->
 
 ## App navigation
 | Page | What it contains |
@@ -80,4 +80,4 @@ streamlit_app/
 ![Dashboard page with filters, KPIs, and linked charts](assets/screenshot_dashboard.png)
 
 ## AI assistance acknowledgment
-I used Claude (Anthropic) to help scaffold the app's code structure and draft documentation; I reviewed, edited, and tested all content.
+I used Claude to help scaffold the app's code structure and draft documentation. I reviewed, edited, and tested all content.
