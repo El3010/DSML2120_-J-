@@ -15,7 +15,7 @@ import streamlit as st
 # Paths & constants
 # --------------------------------------------------------------------------------------
 ROOT = Path(__file__).parent
-DATA_PATH = ROOT / "data" / "ds_salaries.csv"
+DATA_PATH = ROOT / "data" / "archive" / "ds_salaries.csv"
 ASSETS = ROOT / "assets"
 
 AUTHOR = "Jose Lopez"
