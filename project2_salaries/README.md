@@ -4,7 +4,7 @@ A multipage Streamlit app that serves as my data visualization portfolio and a s
 It explores the **Data Science Job Salaries** dataset to see what is associated with higher pay in data
 jobs (experience, company size, location, and remote work) through an EDA gallery and an interactive dashboard.
 
-**Live app:** https://YOUR-APP-NAME.streamlit.app  <!-- TODO: paste your Streamlit Cloud URL -->
+**Live app:** https://kuajywepecay9dgbnjd87d.streamlit.app/  <!-- TODO: paste your Streamlit Cloud URL -->
 
 ## Author
 **Jose Lopez** — MSU Denver
@@ -23,7 +23,7 @@ jobs (experience, company size, location, and remote work) through an EDA galler
 ## Dataset
 - **Name:** Data Science Job Salaries
 - **Source:** [Kaggle — Ruchi Bhatia](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries) (aggregated from the ai-jobs.net salary survey)
-- **Records:** 607 rows × 11 columns (2020–2022)
+- **Records:** 607 rows × 11 columns (2020–2022); 565 after removing 42 duplicate rows
 - **Key fields:** `work_year`, `experience_level`, `employment_type`, `job_title`, `salary_in_usd`, `employee_residence`, `remote_ratio`, `company_location`, `company_size`
 
 **Preprocessing** (in `utils.py → load_data`, cached with `@st.cache_data`):
